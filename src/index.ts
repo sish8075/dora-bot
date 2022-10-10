@@ -7,5 +7,4 @@ export = (app: Probot) => {
     });
     await context.octokit.issues.createComment(issueComment);
   });
-
 };
